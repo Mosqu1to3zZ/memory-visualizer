@@ -29,9 +29,11 @@ graph-memory-viewer/
 
 ## 数据库路径
 
-后端默认读取：`~/.openclaw/graph-memory.db`
+本仓库已经包含完整的 `graph-memory.db` 数据库文件（克隆后自动获得）。
 
-确保你的 graph-memory 数据库已经存在于此路径。
+后端优先读取当前目录的 `graph-memory.db`，如果找不到再读取 `~/.openclaw/graph-memory.db`。
+
+如果你想使用你自己新的数据库，替换当前目录的 `graph-memory.db` 文件即可。
 
 ## 访问地址
 
