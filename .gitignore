@@ -1,7 +1,6 @@
 # Graph Memory Visualizer
 # Ignore database - this should be copied from your graph-memory plugin installation
-*.db
-~/.openclaw/graph-memory.db
+# ~/.openclaw/graph-memory.db
 
 # Python
 __pycache__/
